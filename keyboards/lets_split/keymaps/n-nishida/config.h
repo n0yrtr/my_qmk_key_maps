@@ -36,6 +36,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #define EE_HANDS
 
 // hold & tapping delay setting
-#define TAPPING_TERM 90
+#define TAPPING_TERM 40 
 
-
+#define RETRO_TAPPING
+#define PERMISSIVE_HOLD
