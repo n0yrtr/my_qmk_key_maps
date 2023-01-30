@@ -78,3 +78,13 @@
 /* Locking resynchronize hack */
 #define LOCKING_RESYNC_ENABLE
 
+// hold & tapping delay setting
+#define TAPPING_TERM 150
+
+
+// permissive holｄがあってTappingTermを伸ばしていれば　RETRO_TAPPINGはいらないかな。
+// #define RETRO_TAPPING
+#define PERMISSIVE_HOLD
+#define TAPPING_FORCE_HOLD
+// #define IGNORE_MOD_TAP_INTERRUPT
+
